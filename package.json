@@ -1,0 +1,28 @@
+{
+  "name": "gulp-fatal-error-handler",
+  "version": "1.0.0",
+  "description": "Error handler that will stop the gulp process if a fatal error occurs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/gulp-fatal-error-handler.git"
+  },
+  "keywords": [
+    "gulp",
+    "error",
+    "travis",
+    "ci"
+  ],
+  "author": "ronny.roeller@collaborne.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Collaborne/gulp-fatal-error-handler/issues"
+  },
+  "homepage": "https://github.com/Collaborne/gulp-fatal-error-handler#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8"
+  }
+}
