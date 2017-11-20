@@ -1,6 +1,6 @@
 {
   "name": "gulp-fatal-error-handler",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Error handler that will stop the gulp process if a fatal error occurs",
   "main": "index.js",
   "scripts": {
