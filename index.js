@@ -28,7 +28,9 @@ exports.addYargs = function addYargs(yargs) {
  * @param {String} fatalLevel Error level on which the system starts to stop
  */
 exports.create = fatalLevel => function handleError(level, error) {
-	util.log(error.message);
+	var message = error ? error.message || error : 'Undefined error message';
+
+	util.log(message);
 	if (isFatal(level, fatalLevel)) {
 		process.exit(1);
 	}
